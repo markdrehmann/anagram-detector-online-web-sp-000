@@ -10,6 +10,7 @@ class Anagram
     array.map do |m|
       new_array << m if m.split("").sort == @word
     end
+    new_array
   end
 
 end
